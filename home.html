@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tweeks</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap" rel="stylesheet">
+<!-- Add this script to handle navigation -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Function to scroll to a specific section
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Handle menu button click
+        document.getElementById('menu-button').addEventListener('click', function () {
+            scrollToSection('menu-section');
+            
+        });
+        document.getElementById('about-button').addEventListener('click', function () {
+            scrollToSection('about-section');
+            
+        });
+
+        // Handle contact link click
+        document.getElementById('contact-link').addEventListener('click', function () {
+                scrollToSection('feedback');
+        });
+    });
+</script>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div>
+            <img src="images/logo.png" alt="The Tweeks Logo">
+        </div>
+        <ul>
+            <li><a href="#menu-section">Menu</a></li>
+            <li><a id="about-button" href="#about-section">About</a></li>
+            <li><a id="contact-link" href="#feedback">Contact Us</a></li>
+            <li><a href="login.html" >Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-section">
+        <img src="images/pexels-pixabay-461382.jpg" alt="Welcome to The Tweeks Cafe">
+        <div class="image-text">
+            <h2 style="font-family: font-family: 'Anton', sans-serif;
+            font-family: 'Dancing Script', cursive;">Welcome to The Tweeks Cafe</h2>
+            <h1>Discover a world of delightful flavors.</h1>
+            <p>Explore our menu and indulge in a culinary experience like never before.</p>
+            
+        </div>
+    </div>
+    <section id="menu-section">
+    <div class="menu-section" >
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+            <img src="images/banner-img.png" alt="Dish 1">
+            <div class="menu-item-content">
+                <h3>Tea</h3>
+               
+                 <p class="price">10/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+            <img src="images/food2.png" alt="Dish 2">
+            <div class="menu-item-content">
+                <h3>Garlic bread</h3>
+               
+                <p class="price">30/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="menu-item">
+            <img src="images/food3.png" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Cold Coffee</h3>
+                
+                <p class="price">50/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 4 -->
+         <div class="menu-item">
+            <img src="images/food4.png" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Hot coffee</h3>
+               
+                <p class="price">20/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 5 -->
+         <div class="menu-item">
+            <img src="images/food5.png" alt="Dish 3" style="size: 250px * 230px;">
+            <div class="menu-item-content">
+                <h3>Franch Fries</h3>
+                
+                <p class="price">42/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 6 -->
+         <div class="menu-item">
+            <img src="images/samosa.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>samosa</h3>
+              
+                <p class="price">15/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 7-->
+         <div class="menu-item">
+            <img src="images/Dosa.png" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Dosa </h3>
+              
+                <p class="price">80/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 8 -->
+         <div class="menu-item">
+            <img src="images/dhokala.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Dhokala</h3>
+                
+                <p class="price">15/- per pice</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 9 -->
+         <div class="menu-item">
+            <img src="images/Chana-Chat.png" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Chana-Chat</h3>
+                
+                <p class="price">15/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 10 -->
+         <div class="menu-item">
+            <img src="images/pasta.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Pasta</h3>
+                
+                <p class="price">$15.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 11 -->
+         <div class="menu-item">
+            <img src="images/sandwhich.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Sandwich</h3>
+               
+                <p class="price">40/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 12 -->
+         <div class="menu-item">
+            <img src="images/sweetcorn.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Sweetcorn</h3>
+               
+                <p class="price">45/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 13 -->
+         <div class="menu-item">
+            <img src="images/kachodi.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Kachodi</h3>
+               
+                <p class="price">15/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 14 -->
+         <div class="menu-item">
+            <img src="images/pasta.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Pasta</h3>
+                
+                <p class="price">40/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 15 -->
+         <div class="menu-item">
+            <img src="images/Chole-Bhature.png" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Chole-Bhature</h3>
+                
+                <p class="price">80/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+         <!-- Menu Item 16 -->
+         <div class="menu-item">
+            <img src="images/pizza.jpeg" alt="Dish 3">
+            <div class="menu-item-content">
+                <h3>Pizza</h3>
+               
+                <p class="price">49/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+        <div class="about-section" id="about-section">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Welcome to The Tweeks Cafe, where passion for food meets creativity. Our culinary journey began with a simple idea - to create a space where people can enjoy delicious meals in a cozy and vibrant atmosphere.</p>
+                    <p>At The Tweeks, we believe in using the finest ingredients to craft dishes that not only satisfy your taste buds but also leave a lasting impression. Our team of talented chefs is dedicated to delivering a diverse menu that caters to various palates.</p>
+                    <p>Whether you're here for a casual meal with friends, a family gathering, or a special celebration, we strive to make every dining experience memorable. Join us on this culinary adventure and explore the flavors that make The Tweeks Cafe unique.</p>
+                </div>
+            </div>
+    </div>
+
+        <!-- Contact Us Section -->
+        <section class="feedback" id="feedback">
+            <h2>Give Us Your Feedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please don't hesitate to get in touch with us.</p>
+            <ul>
+                <li>Email: info@thetweeks.com</li>
+                <li>Phone: +1-123456789</li>
+                <li>Address: 123 Fashion Street, Pune, India</li>
+            </ul>
+        </section>
+
+
+
+   
+
+</body>
+</html>
